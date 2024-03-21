@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css"
+    <link rel="shortcut icon" href="/img/Logopizzaicon.ico">
+
+    <a rel="nav-item" href="/Index.html"></a>
+    <title>Pizzería Venecia</title>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/Index.html" style="position: relative; width: 100px;">
+            <div class="container-fluid" style="margin-right: -150px; margin-left: 10px;">
+            <img src="/img/Logopizza.png" alt="logo1" width="80px">
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: rgb(255, 64, 0); background: radial-gradient(rgb(246, 116, 116), yellow);">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">        
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item" >
+                <a class="nav-link" aria-current="page" href="/pages/productos.html"><img src="/img/menu.png" class="imagevar"  width="50px">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/promociones.html"><img src="/img/promo.png" class="imagevar" width="50px"> Promociones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/Creatupizza.html" ><img src="/img/creatupizza.png" class="imagevar" width="50px">Crea tu Pizza</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/Contactanos.html"><img src="/img/contactanos.png" class="imagevar" width="50px"> Contactanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/Acercade.html"><img src="/img/about.png" class="imagevar" width="50px"> Acerca de nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </head>
+ 
+  <body class="master">
+     <script src="/js/bootstrap.min.js"></script>
+  
+  
+     <div class="piedra">
+    <h1 class="text-center topic">Crea tu pizza</h1>
+  </div>
+    <div class="container col-10 tijeras mx-auto">
+      <form>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="InputNombre" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="InputNombre" required>
+            </div>
+            <div class="col-md-6">
+                <label for="InputApellido" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="InputApellido" required>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="InputEmail" class="form-label">Tamaño de la pizza</label>
+                <select id="size" class="seleccion form-select">
+                  <option value="personal">Personal 4 porciones</option>
+                  <option value="familiar">Familiar 8 porciones</option>
+                  <option value="extragrande">Extragande 12 porciones</option>
+                  <option value="gigante">Gigante 16 porciones</option>
+                  <option value="mounstruosa">Mounstruosa 20 porciones</option>
+
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="exampleInputCelular" class="form-label">Tipo de masa</label>
+                <select id="size" class="seleccion form-select">
+                  <option value="personal">Masa Suave</option>
+                  <option value="familiar">Masa delgada</option>
+                  <option value="extragrande">Rellana de Queso</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+              <label for="exampleInputCelular" class="form-label">Ingredientes</label>
+              <select id="size" class="seleccion form-select">
+                <option value="personal">Peperoni</option>
+                <option value="familiar">Carne</option>
+                <option value="extragrande">Solo Queso</option>
+                <option value="extragrande">Tocino</option>
+                <option value="extragrande">Salchicha italiana</option>
+                <option value="extragrande">Tomate</option>
+              </select>
+          </div>
+          <div class="col-md-6">
+            <label for="exampleInputCelular" class="form-label">Topins</label>
+            <select id="size" class="seleccion form-select">
+              <option value="personal">Extra Peperonni</option>
+              <option value="familiar">Hongos</option>
+              <option value="extragrande">Jalapeños</option>
+              <option value="extragrande">Piña</option>
+              <option value="extragrande">Espinaca</option>
+              <option value="extragrande">Queso y Carne</option>
+            </select>
+        </div> 
+        </div>
+        
+        <div class="mb-3">
+            <label for="exampleInputMensaje" class="form-label">Instrucciones Extras</label>
+            <textarea class="form-control" id="exampleInputMensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-success btn-lg btnEnviar">Enviar</button>
+    </form>
+  </div>
+</div>
+    </div>
+  </body>
+  <footer class="bg-gradient text-white pt-5 pb-3" style="background-color: rgb(0, 133, 177);">
+    <div class=" text-lg-start" style="margin-left: 35px;">
+  <h5 class="mb-4 font-weight-bold text-warning " style="text-align: start;">Pizzería Venecia</h5>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+  <h5 class="mb-4 font-weight-bold text-warning">Pizzería Venecia</h5>
+  <p>
+    <a>Datos de Contacto</a>
+      <p><a href="mailto:info@pizzeriavenecia.com">info@pizzeriavenecia.com</a></p>
+      <p><a>Teléfono: +50377777777</a></p>
+      <p><strong>Redes Sociales:</strong></p>
+    </a>
+  </p>
+
+</div>
+
+</div>
+</div>
+</div>
+</footer>
+</html>
